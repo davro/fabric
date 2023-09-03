@@ -7,7 +7,7 @@ namespace Fabric;
 use Fabric\Htmx;
 
 /**
- * Fabric.
+ * Fabric Engine.
  *
  */
 class Fabric
