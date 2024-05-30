@@ -29,14 +29,3 @@ $application = new Application();
 $application->add(new CreateProjectCommand());
 $application->run();
 
-
-use Symfony\Component\Console\Application;
-use Fabric\Command\CreateProjectCommand;
-
-$application = new Application();
-
-// Register commands
-$application->add(new CreateProjectCommand());
-
-$application->run();
-
